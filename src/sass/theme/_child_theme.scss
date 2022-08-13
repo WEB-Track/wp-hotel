@@ -1,0 +1,27 @@
+// _child_theme
+
+// helpers
+@import "./my-styles/1-helper/variables";
+@import "./my-styles/2-base/bs-color";
+
+// base
+@import "./my-styles/2-base/reset";
+@import "./my-styles/1-helper/font";
+@import "./my-styles/1-helper/spacing";
+@import "./my-styles/1-helper/states";
+@import "./my-styles/2-base/front-page";
+
+// layout
+@import "./my-styles/3-layout/header";
+@import "./my-styles/3-layout/hero";
+@import "./my-styles/3-layout/col2";
+@import "./my-styles/3-layout/testimory";
+
+// module
+@import "./my-styles/4-module/jumbotron";
+@import "./my-styles/4-module/nav-link";
+@import "./my-styles/4-module/card-body";
+@import "./my-styles/4-module/col";
+@import "./my-styles/4-module/media";
+@import "./my-styles/4-module/carousel";
+@import "./my-styles/4-module/wpchanges";

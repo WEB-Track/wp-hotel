@@ -1,0 +1,29 @@
+// testimory
+
+.testimory-media-height {
+  max-height: 3rem;
+}
+
+.testimony-bg {
+  background-image: url(../images/test-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 992px) {
+    background-image: none;
+  }
+}
+
+.testimony-pc {
+  @media (max-width: 992px) {
+    display: none;
+  }
+}
+
+.testimony-md {
+  @media (min-width: 992px) {
+    display: none;
+  }
+}

@@ -87,3 +87,17 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+/**
+	* add fontawsome to head
+*/
+
+function register_my_fontawsome_js(){
+	wp_enqueue_script('the_fontawsome', "https://kit.fontawesome.com/7718f2787c.js", array(), '6.1', 'all');
+}
+
+add_action('wp_enqueue_scripts','register_my_fontawsome_js');
+
+
+?>
